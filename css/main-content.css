@@ -1,0 +1,123 @@
+/*
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Ubuntu Mono', monospace;
+*/
+/*@media (min-width: 0px) and (max-width: 900px) {
+	#title-long {
+		display: none;
+		visibility: hidden;
+	}
+	#title-short {
+		visibility: visible;
+		display: block;	
+	}
+}*/
+#main-content {
+	width: auto;
+	margin-top: 10%;
+	color: black;
+}
+#main-content a {
+	text-decoration: none;
+	color: black;
+}
+.heading-deck {
+	margin-left: 4%;
+	margin-bottom: -35px;
+	color: #019031;
+}
+.category-heading {
+	position: relative;
+	z-index: -1;
+}
+.select-option {
+	position: relative;
+	margin-bottom: -20px;
+	display: inline-block;
+	font-size: 1.5rem;
+	/*z-index: -1;*/
+}
+.select-option select{
+	height: 40px;
+	width: 150px;
+	background-color: #019031;
+	color: white;
+	-webkit-appearance: none;
+   	-moz-appearance: none;
+   	appearance: none;
+   	font-size: 1.5rem;
+   	border: 5px solid #019031;
+   	border-radius: 4%;
+}
+.select-option option{
+	background-color: #019031;
+	color: white;
+   	font-size: 1.5rem;
+}
+.category-heading {
+	margin-left: 4.3%;
+	display: inline-block;
+	color: #019031;
+	font-size: 1.5rem;
+}
+.card-deck {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 2%;
+}
+.card-link a{
+	list-style-type: none;
+}
+@media (max-width: 1100px) {
+	.card-deck {
+		display: grid;
+		grid-template-columns: auto;
+		padding: 2%;
+	}	
+	.card {
+		margin-top: 3%;
+	}
+}
+.card {
+	margin-left: 7%;
+	border-radius: 3%;
+	box-shadow: 10px 5px 5px grey;
+
+}
+.card-heading {
+	/*background-color: #0A3D62;*/
+	/*background-color: #0ABDE3;*/
+	background-color: #019031;
+	color: white;
+}
+.card-heading h3 {
+	margin-top: 0;
+}
+.card-body {
+	display: flex;
+	padding: 2% 1% 2% 2%;
+}
+.card-image {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	box-shadow: 10px 5px 5px grey;
+}
+.card-review {
+	padding-left: 5%;
+}
+@media (min-width: 0px) and (max-width: 600px) {
+	#main-content {
+		width: auto;
+		margin-top: 25%;
+		color: black;
+		text-align: center;
+	}
+	.card {
+		margin: 7%;
+		border-radius: 3%;
+		box-shadow: 10px 5px 5px grey;
+		align-content: center;	
+	}
+}

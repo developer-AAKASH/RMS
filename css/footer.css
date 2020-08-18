@@ -1,0 +1,29 @@
+/*
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Ubuntu Mono', monospace;
+*/
+@media (min-width: 0px) and (max-width: 900px) {
+	#title-long {
+		display: none;
+		visibility: hidden;
+	}
+	#title-short {
+		visibility: visible;
+		display: block;	
+	}
+}
+footer {
+	width: auto;
+	/*background-color: #0A3D62;*/
+	/*background-color: #0ABDE3;*/
+	background-color: #019031;
+	padding: 2% 10%;
+	text-align: center;
+	color: white;
+}
+.mystyle {
+	color: white;
+	padding-right: 1%;
+
+}

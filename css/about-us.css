@@ -1,0 +1,45 @@
+.about-us {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto;
+	margin-top: 12%;
+	text-align: center;
+}
+.about-text {
+	padding: 5%;
+	text-align: center;
+	margin: 5%;
+	padding: 15%;
+	font-size: 2rem;
+}
+.about-text a {
+	color: #019031;
+}
+.about-image {
+	margin: 5%;
+	padding: 2%;
+	width: 500px;
+	height: 500px;
+}
+@media (min-width: 0px) and (max-width: 800px) {
+	.about-us {
+		display: grid;
+		grid-template-columns: auto;
+		grid-template-rows: auto auto;
+		margin-top: 12%;
+		text-align: center;
+	}
+	.about-image {
+		/*margin: 5%;*/
+		padding: 2%;
+		width: 80%;
+		height: 300px;
+	}
+	.about-text {
+		text-align: center;
+		/*padding: 2%;
+		margin: 3%;*/
+		/*padding: 15%;*/
+		font-size: 2rem;
+	}
+}
